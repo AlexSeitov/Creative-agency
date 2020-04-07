@@ -1,7 +1,7 @@
-const menuToggle = document.querySelector('');
-const mobileNavContainer = document.querySelector('');
+const menuToggle = document.querySelector('.header__mobile-icon');
+const mobileNavContainer = document.querySelector('.header__menu');
 
 menuToggle.onclick = function(){
-    menuToggle.classList.toggle('');
-    mobileNavContainer.classList.toggle('');
+    menuToggle.classList.toggle('header__mobile-icon_active');
+    mobileNavContainer.classList.toggle('header__menu_active');
 }
