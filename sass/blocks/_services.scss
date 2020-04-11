@@ -67,7 +67,7 @@
     }
 }
 
-// media queries 
+    // media queries
 
 @media (max-width: 767px) {
     .services {
@@ -80,6 +80,7 @@
         flex-direction: column;
     }
 }
+
 @media (max-width: 576px) {
     .services__title {
         font-size: 29px;
