@@ -371,7 +371,8 @@ p {
 }
 
 .about {
-  padding: 104px 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .about__inner {
@@ -421,7 +422,7 @@ p {
 
 @media (max-width: 1200px) {
   .about {
-    padding: 68px 0;
+    padding-bottom: 0;
   }
 }
 
@@ -862,6 +863,75 @@ p {
   }
   .news__content-title {
     margin-bottom: 22px;
+  }
+}
+
+.social {
+  background: url(../img/social-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.social__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 118px 15px 98px 25px;
+}
+
+.social__item {
+  width: 84px;
+  height: 84px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.social__item:hover,
+.social__item:hover .fab {
+  background-color: #fff;
+  color: #0295ca;
+}
+
+.fab {
+  font-size: 36px;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .item {
+    width: 60px;
+    height: 60px;
+  }
+  .social__item {
+    margin-right: 26px;
+  }
+  .fab {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .social__row {
+    padding: 118px 15px 78px 35px;
   }
 }
 /*# sourceMappingURL=style.css.map */

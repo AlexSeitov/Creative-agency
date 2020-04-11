@@ -1,5 +1,6 @@
 .about {
-    padding: 104px 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
 
     // .about__inner
 
@@ -58,7 +59,7 @@
 
 @media (max-width: 1200px) {
     .about {
-        padding: 68px 0;
+        padding-bottom: 0;
     }
 }
 
