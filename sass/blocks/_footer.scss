@@ -1,0 +1,33 @@
+.footer {
+    background-color: #062736;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+
+    // .footer__author
+
+    &__author {
+        margin-bottom: 22px; 
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+        text-transform: uppercase;
+    }
+}
+
+    // media queries
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 14px 0;
+        font-size: 14px;
+    
+        // .footer__author
+    
+        &__author {
+            margin-bottom: 8px;  
+        }
+    }
+}

@@ -1072,4 +1072,29 @@ textarea {
     margin-bottom: 26px;
   }
 }
+
+.footer {
+  background-color: #062736;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer__author {
+  margin-bottom: 22px;
+}
+
+.footer__copyright {
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+  .footer__author {
+    margin-bottom: 8px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
